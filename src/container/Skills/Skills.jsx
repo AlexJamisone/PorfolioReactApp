@@ -17,7 +17,6 @@ const Skills = () => {
 		client.fetch(quary)
 			.then((data) => {
 
-				console.log(data);
 				setExperience(data);
 			}).catch((err) => {
 				
